@@ -188,4 +188,8 @@ def create_app():
     def recoverpasswd():
         return render_template("recoverpasswd.html")
     
+    def createList():
+        test_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        return test_list
+        
     return app
